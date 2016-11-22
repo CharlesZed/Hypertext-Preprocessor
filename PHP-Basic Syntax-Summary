@@ -1,0 +1,39 @@
+  In the last seven days of studying the PHP Basic Syntax,i have learn a lot including install the apache server ,php,MySQL,Writing the Basic Syntax of PHP.
+  Because i have learnt programming for three years in college ,studying Basic Syntax is a easy job for me.
+  So i just summarize Something new to me:
+  
+  First:PHP fragment four kinds of representation.
+  Standard tags: <?PHP ?>
+  
+  Short tags: <? ?> //need to setting short _open_tag = on in the PHP.ini , default(on)
+
+  Asp tags: < % % > //need to setting short _open_tag = on in the PHP.ini, default(off)
+
+  The script tags: < script language = "PHP" > < / script >
+  
+  
+  
+  Second:PHP variables and data types
+
+  1) $variable, the variable can be initialed from a letter or _, but can not be initialed  Spaces
+
+  2) Declare Variable $variable = value;
+
+  3) weakly type language, direct assignment,needn't to display a statement data types
+
+  4) basic data types:  Integer, Double, String, Boolean, Object(the Object or class), Array
+
+  5) special data type: the Resourse (reference of third-party resources, such as databases), Null(empty, uninitialized variables)
+  
+  
+  Third:array traversal:
+  foreach:
+  Syntax:
+  foreach($array $key => $value){
+  //loop
+  }
+  $array is the array which is needed to iterate
+  $key and $value are variables
+  needn't the artificial control loop foreach.
+  Every foreac structure will, in turn, according to the read pointer keys and key values of the elements in an array, and assign a value to the variable $key and $value, after reading the element keys and key value, the pointer moves down a line, arrange another time to read.
+  In accordance with the rules in this reading, until the pointer to the array at the end of the end of the cycle
