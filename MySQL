@@ -1,0 +1,54 @@
+What is database?
+Database:A carrier for a lot of information for management of efficient solution, according to the data structure to organize, store and manage data.
+DataBase System (DBS)= DataBase Management System (DBMS) + DataBase(DB) + DataBase Administrator(DBA)
+
+
+
+Relational database
+classification:
+large database:
+Oracle
+DB2
+Medium database:
+MySQL
+SQL Server(Microsoft)
+Small database:
+Access, VF
+
+In the development of the web project, most of bussinesses are using the MySQL database, there are two main reasons:
+1, open source, free
+2, the function is strong enough, enough to handle web application (the highest support of thousands of concurrent access level)
+
+
+
+SQL：Structured Query Language
+classification:
+DDL：Data Definition Language
+DML：Data Manipulation Language
+DCL：Data Control Language
+
+
+
+MySQL's comment:
+Single-line comments:
+#comment content
+- comment content, attention, among them - with the annotation content there is a space between the!
+Multiline comment:
+/ * comment content* / 
+
+
+
+Database manipulation:
+create database databasename[database-option];#create a new database
+show databases;#check all database
+drop database databasename;#delete a database
+alter database databasename new-database-option #change a exists database's option
+
+
+
+Table manipulation:
+use databasename;#choose the database which you want
+create table tablename(field1 field1-type,field2 field2-type,field3 field3-type,fieldn fieldn-type);#create a new table with some fields
+show tables;#check all table in the database you chose;
+show tables like 'keyword_%';# fuzzy inquiry, _ can represent any single character, % can represent any character
+drop table tablename;delete a table;
