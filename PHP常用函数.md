@@ -32,3 +32,4 @@
 `quotemeta()`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在字符串中某些预定义的字符前添加反斜线<br>
 `chr()`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从指定的ASCII值返回字符<br>
 `ord()`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;返回字符串第一个字符的ASCII值<br>
+###
